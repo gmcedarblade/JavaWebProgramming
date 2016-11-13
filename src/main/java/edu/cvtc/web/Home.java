@@ -34,7 +34,13 @@ public class Home extends HttpServlet {
 		final PrintWriter out = response.getWriter();
 		
 		out.append("<!doctype html>\n<html>\n<head>\n\t<title>Greg's Website</title>\n</head>\n<body>");
-		out.append("<h1>Welcome to my website</h1>");
+		out.append("\n\t<h1>Welcome to my website</h1>");
+		out.append("\n\t<nav>\n\t<li><a href=\"Home\">Home</a></li>"
+				+ "\n\t<li><a href=\"About\">About</a></li>"
+				+ "\n\t<li><a href=\"Contact\">Contact</a></li></nav>");
+		out.append("\n\t<p>This is my initial website for the Java Web Programming at Chippewa Valley Technical College."
+				+ " This is a website that is about myself. You can look at the about me section to find out more about"
+				+ " me and if you wish to contact me then please go to the contact me page.</p>");
 		out.append("\n\t<footer>&copy; Copyright 2016 Greg Cedarblade</footer>\n</body>\n</html>");
 		
 	}
