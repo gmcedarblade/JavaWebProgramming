@@ -35,9 +35,9 @@ public class Home extends HttpServlet {
 		
 		out.append("<!doctype html>\n<html>\n<head>\n\t<title>Greg's Website</title>\n</head>\n<body>");
 		out.append("\n\t<h1>Welcome to my website</h1>");
-		out.append("\n\t<nav>\n\t<li><a href=\"Home\">Home</a></li>"
-				+ "\n\t<li><a href=\"About\">About</a></li>"
-				+ "\n\t<li><a href=\"Contact\">Contact</a></li></nav>");
+		out.append("\n\t<nav>\n\t\t<li><a href=\"Home\">Home</a></li>"
+				+ "\n\t\t<li><a href=\"About\">About</a></li>"
+				+ "\n\t\t<li><a href=\"Contact\">Contact</a></li>\n\t</nav>");
 		out.append("\n\t<p>This is my initial website for the Java Web Programming at Chippewa Valley Technical College."
 				+ " This is a website that is about myself. You can look at the about me section to find out more about"
 				+ " me and if you wish to contact me then please go to the contact me page.</p>");
