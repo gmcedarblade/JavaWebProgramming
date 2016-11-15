@@ -54,7 +54,7 @@ public class Contact extends HttpServlet {
 				+ "\n\t\t\t<button type=\"submit\">Submit</button>"
 				+ "\n\t\t</div>"
 				+ "\n\t</form>"
-				+ "\n\t<p>You can also send me an email at: \n\t\t<a href=\"gmcedarblade@gmail.com\">gmcedarblade@gmail.com</a>\n\t</p>");
+				+ "\n\t<p>You can also send me an email at: \n\t\t<a href=\"mailto:gmcedarblade@gmail.com\">gmcedarblade@gmail.com</a>\n\t</p>");
 		out.append("\n\t<footer>&copy; Copyright 2016 Greg Cedarblade</footer>\n</body>\n</html>");
 		
 	}
