@@ -36,7 +36,7 @@ public class Contact extends HttpServlet {
 		out.append("\n\t<nav>\n\t\t<li><a href=\"Home\">Home</a></li>"
 				+ "\n\t\t<li><a href=\"About\">About</a></li>"
 				+ "\n\t\t<li><a href=\"Contact\">Contact</a></li>\n\t</nav>");
-		out.append("\n\t<form>"
+		out.append("\n\t<form action=\"#\">"
 				+ "\n\t<h2>Contact Form</h2>"
 				+ "\n\t\t<div>"
 				+ "\n\t\t\t<label>First Name</label>"
@@ -53,7 +53,8 @@ public class Contact extends HttpServlet {
 				+ "\n\t\t<div>"
 				+ "\n\t\t\t<button type=\"submit\">Submit</button>"
 				+ "\n\t\t</div>"
-				+ "\n\t</form>");
+				+ "\n\t</form>"
+				+ "\n\t<p>You can also send me an email at: \n\t\t<a href=\"gmcedarblade@gmail.com\">gmcedarblade@gmail.com</a>\n\t</p>");
 		out.append("\n\t<footer>&copy; Copyright 2016 Greg Cedarblade</footer>\n</body>\n</html>");
 		
 	}
